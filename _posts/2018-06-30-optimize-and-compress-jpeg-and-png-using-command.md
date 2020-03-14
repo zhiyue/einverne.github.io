@@ -3,7 +3,7 @@ layout: post
 title: "每天学习一个命令：使用 jpegoptim 和 optipng 优化压缩图片"
 tagline: ""
 description: ""
-category: 学习笔记
+category: 每天学习一个命令
 tags: [compress, optimize, linux, command, jpeg, png,]
 last_updated:
 ---
@@ -47,6 +47,21 @@ last_updated:
 结合 find
 
     find images_folder/ *.png -exec optipng {} \;
+
+## mozjpeg
+优化 jpeg 压缩算法
+
+- <https://github.com/mozilla/mozjpeg>
+
+命令行版本
+
+- <https://github.com/imagemin/mozjpeg-bin>
+
+安装方式：
+
+	npm install -g mozjpeg
+
+	mozjpeg --help
 
 ## reference
 

@@ -8,7 +8,7 @@ tags: [qnap, qnap-tutorial, download, bt,]
 last_updated:
 ---
 
-这一篇讲在威联通上安装和使用下载工具 -- Transmission。
+这一篇讲在威联通上安装和使用下载工具 -- Transmission，一个知名的轻量级，跨平台，开源的 BT 下载工具。
 
 [Transmission](https://transmissionbt.com/) 是一个 BT 客户端，提供了 Web 和命令行界面，非常适合在威联通机子上跑。威联通自身的 Download Station 根本无法用，而迅雷和百度也基本无法用。只能尝试一下这个方法了。
 
@@ -87,8 +87,8 @@ last_updated:
     "compact-view": false,
     "dht-enabled": false, #关闭 DHT（不通过 tracker 寻找节点）功能，不少 PT 站的要求，但 BT 下载设置为 true 会使得下载更好
     "download-dir": "/share/Downloads", #下载的内容存放的目录
-    "download-queue-enabled": true,
-    "download-queue-size": 5,
+    "download-queue-enabled": true,  # 下载队列开关
+    "download-queue-size": 5, # 下载队列数量
     "encryption": 1, # 加密。指定节点的加密模式，默认 1。0 表示关闭 , 0= 不加密，1= 优先加密，2= 必须加密
     "lazy-bitfield-enabled": true, # 默认为 true，设置为 true 时可以避免某些 ISP 通过查询完整位段来屏蔽 BT，从而破解部分 ISP 对 BT 的封杀，当然不一定完全有效
     "idle-seeding-limit": 30,
@@ -165,3 +165,39 @@ last_updated:
     "watch-dir-enabled": false # 是否监听文件夹
 
 跟多的详细配置可以参考官网[文档](https://github.com/transmission/transmission/wiki/Editing-Configuration-Files)
+
+## Add tracker
+可以从下面两个地址中找到每天更新的 Tracker 服务器地址：
+
+- <https://github.com/ngosang/trackerslist>
+- <https://github.com/XIU2/TrackersListCollection>、<https://trackerslist.com/>
+
+写一个[脚本](https://github.com/oilervoss/transmission/blob/master/addtracker.sh)，使用 transmission-remote 命令添加到 bt 。
+
+- <https://trackerslist.com/all.txt>
+
+## 更换 Web Control 页面
+这里有一个更强大的网页界面。
+
+- <https://github.com/ronggang/transmission-web-control>
+
+默认的 Transmission 安装的地点是：`/share/CACHEDEV1_DATA/.qpkg/QTransmission/` 进入该目录，然后进入 /`/share/transmission/` 完整路径如下：
+
+	/share/CACHEDEV1_DATA/.qpkg/QTransmission/share/transmission/
+
+在该目录中有一个 `web` 文件夹，这个文件夹就是要被替换的前端界面。
+
+- 先将原来 web 目录中的 index.html 重命名成 index.original.html `mv web/index.html index.original.html`
+- 备份 web 整个目录，以防万一
+- 用 wget 从 Github 下载整个项目，得到一个 zip 文件
+- `unzip xxx.zip` 解压该文件
+- 然后将 github 项目中的 src 文件夹拷贝到 web 文件夹中（做好备份工作）
+
+## Other
+如果在 QNAP 上开启了远程控制，那么在桌面版系统上可使用这个 Remote control [GUI](https://github.com/transmission-remote-gui/transgui)，可以有更多的功能。
+
+Android 推荐使用 [Transdroid](http://www.transdroid.org/) 来管理。之后在做一下管理端口映射，那就可以无论在哪里都能远程管理了。
+
+## reference
+
+- [官网](https://transmissionbt.com/)

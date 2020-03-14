@@ -10,7 +10,18 @@ last_updated:
 
 Joplin 是一个开源的笔记应用，曾经在调查 [Evernote 代替品](/post/2016/07/evernote-alternative.html) 的时候简单的看到过，但是当时也只是观望的态度，因为当时发现 Joplin 的插件有些不完美，有些网页 HTML 格式无法保证。
 
-但是时隔一些时间过来看，Joplin 发展已经超出我想象，不仅提供了各个平台的版本，还提供了命令行版本。虽然日常用 Vim， aag，fzf，git 来记录一些笔记，倒也还可以，但是毕竟有些管理上的问题，尤其是当笔记数量已经达到数百数千条的时候。
+> Joplin is a free, open source note taking and to-do application, which helps you write and organise your notes, and synchronise them between your devices.
+
+但是时隔一些时间过来看，Joplin 发展已经超出我想象，不仅提供了各个平台的版本，还提供了命令行版本。虽然日常用 Vim，rg，fzf，git 来记录一些笔记，倒也还可以，但是毕竟有些管理上的问题，尤其是当笔记数量已经达到数百数千条的时候。
+
+一些非常棒的特性：
+
+- 跨平台，横跨所有桌面端，移动端，甚至提供了命令行版本
+- 原生支持 markdown 格式
+- 所有的笔记都可以搜索，加标签，所有内容都保存在本地
+- Joplin 可以通过其他第三方同步工具 (Dropbox/NextCloud/OneDrive/WebDAV/etc) 进行备份以及同步
+- Web clipper, 之前就是因为无法逃脱好用的 WizNote 插件才没有转，现在用 Joplin 的扩展，非常好用了，很快，很精确
+- 纯文本文件保存支持方便导入导出
 
 ## Installation
 
@@ -27,7 +38,7 @@ Joplin 是一个开源的笔记应用，曾经在调查 [Evernote 代替品](/po
 更多内容可以查看[我的笔记整理法则](/post/2016/12/note-taking-style.html)
 
 ### Global Search
-在桌面版中，可以按下 Ctrl + G 然后输入笔记的标题来快速跳转到该笔记。或者可以使用 `#` 跟着 Tag 或者使用 `@` 跟着笔记本标题来跳转。
+在桌面版中，可以按下 Ctrl + G 然后输入笔记的标题来快速跳转到该笔记。或者在按下 Ctrl + G 后可以使用 `#` 跟着 Tag 名或者使用 `@` 跟着笔记本标题来跳转。
 
 ### External Editor
 使用快捷键 Ctrl + E 或者直接点击工具栏的 External Editor 可以打开外部编辑器。个人推荐 Haroopad.

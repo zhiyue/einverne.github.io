@@ -18,6 +18,8 @@ last_updated:
 
 可以用来推送电子书到 Kindle 邮箱
 
+2019 年 11 月更新，小书屋也不在了。愿站长一切安好！
+
 ## 集思会
 强烈推荐的站点，几乎 kindle10000 之后就是他了。
 
@@ -26,6 +28,11 @@ last_updated:
 书籍比较全，每天可推送两本，下载一本
 
 2018-08-01 更新 kindlepush 网站也关站了，基本上也应该是盗版的原因吧，现在的资源站基本上只要做大了也就面临着闭站的风险了。
+
+## i-book.in
+基于 IPFS 的电子书索引
+
+    https://book.tstrs.me/
 
 ## 书伴
 很早之前因为一些 Kindle 相关的文章而关注了，后来也陆陆续续的有一些好书分享。
@@ -36,6 +43,10 @@ last_updated:
 
     http://vol.moe/
 
+## kindle 漫画
+
+	http://www.kindlecomic.net/
+
 记得以前不叫这个名字的，可推送漫画，漫画比较全，有连载。
 
 ## bookset 我的精品书库
@@ -44,6 +55,13 @@ last_updated:
     https://bookset.me/
 
 2019 年 9 月 1 日更新，看来是也不存在了。
+
+## 书阁
+有品格的数字古籍图书馆
+
+	https://new.shuge.org/
+
+寻找古籍的最佳选择。
 
 ## epubee
 一个电子书在线转换工具，也提供热门书的下载和推送。
@@ -83,6 +101,10 @@ last_updated:
 
 终于 readfree 也挺不住了，也不知道是抓版权呢，还是在禁止出版物。
 
+## iread
+非常像 readfree
+
+	http://www.iread.cf/
 
 ## 子乌书简
 
@@ -124,6 +146,11 @@ Library Genesis 是科学论文和书籍搜索引擎，是一款非常好用的�
     http://libgen.io
     http://libgen.pw
 
+## English e-Reader
+英语电子书及有声书
+
+- https://english-e-reader.net/level/pre-intermediate
+
 ## SaltTiger
 个人维护的，基本和计算机相关，大部分都是英文图书
 
@@ -164,6 +191,10 @@ Library Genesis 是科学论文和书籍搜索引擎，是一款非常好用的�
 
     https://skebooks.com
 
+## 苦瓜书盘
+
+	http://kgbook.com/
+
 ## b-ok
 英文书为主，非常大的库
 
@@ -173,6 +204,10 @@ Library Genesis 是科学论文和书籍搜索引擎，是一款非常好用的�
 全站免费，全站度盘。书籍质量较高，有封面，目录，不过令人担忧的是度盘，随时可能失效
 
     https://epubw.com/
+
+## enjing
+
+	https://enjing.com
 
 ## 一些聚合搜索网站
 全国图书馆参考咨询联盟
@@ -187,6 +222,11 @@ Library Genesis 是科学论文和书籍搜索引擎，是一款非常好用的�
 需邀请码
 
 	http://www.woyushu.com
+
+## 我自己的站
+这是我自己建的站，我一直有在整理我硬盘上的电子书，但是无奈并没有那么多的 VPS 来存放这些书，抓了十几万条豆瓣的条目，有些已经从豆瓣完全消失了，希望这里有个地方存留一些记忆。
+
+	https://book.einverne.info
 
 ## 计算机相关
 
